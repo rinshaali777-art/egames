@@ -56,10 +56,10 @@ Use **Railway** for free MySQL:
 
 5. Add Environment Variables (from your Railway MySQL):
 ```
-DB_HOST         = <railway mysql host>
-DB_PORT         = <railway mysql port>
-DB_USER         = <username>
-DB_PASSWORD     = <password>
+DB_HOST         = <railway mysql host> mysql.railway.internal
+DB_PORT         = <railway mysql port> 3306
+DB_USER         = <username> root
+DB_PASSWORD     = <password> tCDiTcqxrGMKNnxFOjMrQiZJYKzVdLDs
 DB_NAME         = egames_db
 JWT_SECRET      = your_super_long_random_secret_here_at_least_32_chars
 NODE_ENV        = production
